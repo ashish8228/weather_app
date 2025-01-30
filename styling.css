@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#card{
+    background-color: rgb(200, 142, 255);
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+#heading h1{
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#inp{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    padding-left: 8px;
+    font-size: larger;
+}
+
+#sear{
+    height: 40px;
+    width: 30px;
+    cursor: pointer;
+    
+}
+
+.degree h1{
+    text-align: center;
+    color: rgb(205, 207, 118);
+}
+.city h1{
+    text-align: center;
+}
+
+#last{
+    display: flex;
+    justify-content: space-between;
+    color: brown;
+}
